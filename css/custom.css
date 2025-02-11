@@ -56,7 +56,7 @@
 
 .dot {
     font-size: 18px;
-    color: #0000007e;
+    color: #ffff;
     position: absolute;
     right: -25px;
     /* Adjust the position */
@@ -72,6 +72,9 @@
         .main-text {
             font-size: 28px;
             color: #ffd302;
+        }
+        .dot{
+            color:#0000005e;
         }
 
     }
@@ -104,4 +107,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centers text content */
+}
+/* floating action button whatsapp */
+.fab-whatsapp {
+    position: fixed;
+    bottom: 125px;
+    right: 50px;
+    background-color: #25d366;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab-whatsapp img {
+    width: 50px;
+    height: 50px;
+}
+
+.fab-whatsapp:hover {
+    background-color: #128c7e;
+    /* Darker green on hover */
 }
