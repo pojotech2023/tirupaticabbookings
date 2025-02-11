@@ -18,7 +18,7 @@
 
 .main-text {
     margin-right: 5px;
-    color: black;
+    color: #ffd302;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@
 
 .main-text {
     font-size: 28px;
-    color: white;
+    color: #ffd302;
 }
 
 .sub-text {
@@ -48,7 +48,7 @@
 
 .box {
     background-color: #ffd302;
-    color: white;
+    color: #085bcf;
     padding: 3px 25px;
     border-radius: 3px;
     font-size: 24px;
@@ -71,7 +71,7 @@
     .sticky-top.navbar-dark {
         .main-text {
             font-size: 28px;
-            color: black;
+            color: #ffd302;
         }
 
     }
@@ -79,7 +79,7 @@
 
 @media (max-width: 768px) {
     .main-text {
-        color: black;
+        color: #ffd302;
     }
 }
 .blog-item {
