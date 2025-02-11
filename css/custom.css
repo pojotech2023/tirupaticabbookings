@@ -56,7 +56,7 @@
 
 .dot {
     font-size: 18px;
-    color: #ffff;
+    color: #0962e3;
     position: absolute;
     right: -25px;
     /* Adjust the position */
@@ -73,10 +73,6 @@
             font-size: 28px;
             color: #ffd302;
         }
-        .dot{
-            color:#0000005e;
-        }
-
     }
 }
 
