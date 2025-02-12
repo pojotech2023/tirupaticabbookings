@@ -100,7 +100,7 @@
 
 .blog-item .p-4 {
     flex-grow: 1; /* Makes the text content take up the remaining space */
-    display: flex;
+   
     flex-direction: column;
     justify-content: center; /* Centers text content */
 }
